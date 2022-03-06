@@ -14,13 +14,6 @@ padding:0;
   text-align: center;
 }
 
-.space{
-  background-color: lightblue;
-  height: 700px;
-  width: calc(100%-40px);
-  display: grid;
-}
-
 .space div{
   margin-top: 200px;
   text-align: center;
