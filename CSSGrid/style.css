@@ -1,0 +1,71 @@
+html{
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+body, ul,h1, h2, h3, h4, h5, h6, p{
+margin:0;
+padding:0;
+}
+
+.header{
+  background-color: aliceblue;
+  padding:20px;
+  text-align: center;
+}
+
+.space{
+  background-color: lightblue;
+  height: 700px;
+  width: calc(100%-40px);
+  display: grid;
+}
+
+.space div{
+  margin-top: 200px;
+  text-align: center;
+}
+
+.flowers {
+  margin-top: 170px;
+  margin-bottom: 100px;
+  padding:20px;
+  width: 150px;
+  height:200px;
+}
+
+.myGrid3{
+  background-color: lightblue;
+  padding:20px;
+  min-height: 500px;
+  width: calc(100%-40px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.myGrid3 div{
+  /* background-color: blue; */
+  margin-top: 170px;
+  margin-bottom: 100px;
+  padding:20px;
+  width: 200px;
+  height:200px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.myGrid3 div:hover{
+  background-color: mediumpurple;
+}
+
+.myGrid3 div:nth-child(even){
+  grid-column: 1;
+  justify-self: end;
+}
+
+.myGrid3 div:nth-child(odd){
+  grid-column: 2;
+  justify-self: start;
+}
