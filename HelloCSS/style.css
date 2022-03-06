@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* browse and download fonts from: google fonts */
+html {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* rem: scales x times of font size*/
+.main {
+  font-size: 1.5rem;
+  color: lightpink;
+  background-color: lightcyan;
+  /* background-color: rgba(70, 62, 70, .5); */
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  /* the outside value of the text */
+  padding: 50px;
+  border: 10px solid lightblue;
+  /* min-width: 400px;
+  max-height: 900px; */
+  /* controlling how much of the screen is shown */
+  display: inline-block;
+  /* display: block; */
+  vertical-align: top;
+}
+
+.one {
+
+}
+
+/* ways to position */
+.two {
+  background-color: fuchsia;
+  position: relative;
+  top: 10px;
+  left: 25px;
+}
+
+/* positioning starts from the top left */
+/* use absolute for divs that are over each other or with sides popping out */
+.three {
+ background-color: mediumpurple;
+ position: absolute;
+ top: 10px;
+ left: 25px;
+ width: 20px;
+ height: 20px;
+ z-index: 10;
+}
+
+.four {
+
+}
+
+/* CSS SYNTAX:
+property: value value value;  */
+
+/* selector {
+  property: value value value;
+  property: value;
+  property: value;
+} */
+
+/* div {
+  background-color: #ff0000;
+  font-size: 30px;
+}
+
+p {
+  color: #0f0;
+}
+
+/* SELECTING A CLASS: */
+/* .mycoolclass {
+  background-color: beige;
+} */
+
+/* SELECTING SPECIFIC ID */
+/* #coolest {
+  font-size: 100px;
+  color: aqua;
+} */
+/*
+.top{
+   color: #00f;
+} */
+
+/* .top, .bottom{
+   color: #00f;
+}
+
+.top p {
+  color: #0f0;
+}
+
+div .hello {
+  color: aqua;
+} */

@@ -1,0 +1,20 @@
+
+<elementName>I am the element</elementName>
+<elementName attr="some data/value" >
+  I am the element's content
+</elementName>
+<elementName someattr >I am the element's content</elementName>
+
+example:
+<div id="my-id">
+  hello world
+</div>
+
+example 2:
+<div id="my-id">
+  hello world
+  <p> i am nested </p>
+</div>
+
+
+/ HTML: 
