@@ -1,0 +1,21 @@
+
+body {
+  transition: background-color 0.5s ease-in-out;
+  
+}
+
+.intro {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: aquamarine;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hidden {
+  display: none;
+}
